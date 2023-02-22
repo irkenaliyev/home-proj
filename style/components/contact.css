@@ -1,0 +1,127 @@
+.contact-header h3{
+    text-align: center;
+    font-family: "Poppins-Boldlight";
+    font-size: 28px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.contact-header p {
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-top: 16px;
+    color: #626262;
+}
+.contact-form {
+    display: flex;
+    margin: 72px 5% 0;
+    justify-content: space-between;
+}
+.contact-form-left{
+    display: block;
+    width: 100%;
+    padding-left: 48px;
+    margin-right: 12px;
+}
+.form-item{
+    display: block;
+    margin-top: 24px;
+}
+.form-item h5{
+    display: inline-block;
+    color:black;
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: "Poppins-Boldlight";
+    margin-bottom: 10px;
+}
+.form-item p{
+    font-size: 15px;
+    color:#626262;
+    line-height: 1.5;
+    font-family: "Poppins";
+    font-weight: 700;
+    margin-top: 10px;
+    display: block;
+}
+.contact-form-right input{
+    padding: 12px 15px;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    font-family: "Poppins";
+    outline: none;
+}
+.contact-form-right input::placeholder{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: "Poppins";
+}
+.contact-form-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contact-form-input:not(:last-child){
+    box-sizing: border-box;
+    padding: 0 12px 0;
+    margin: 0 12px 0 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width:calc(50% - 80px);
+}
+.contact-form-input:last-child{
+    box-sizing: border-box;
+    padding: 0 12px 0;
+    margin: 0 12px 0 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    width: calc(50% - 80px);
+}
+.contact-form-input:last-child input{
+    height: 100%;
+    width: 100%;
+}
+.contact-form-input input{
+    width: 100%;
+    transition: .4s;
+}
+.contact-form-input:nth-child(1), .contact-form-input:nth-child(3), .contact-form-input:nth-child(5){
+    margin-left: 100px;
+}
+.contact-form-button button {
+    margin-left: 80px;
+}
+.contact-form-input input:focus{
+    border:1px solid #ff7129;
+}
+.contact-form-button{
+    width: 100%;
+    margin-left:32px;
+    margin-top: 24px;
+}
+.contact-form-button button{
+    padding:14px 20px;
+    background-color: #ff7129;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Poppins-Light";
+    color:white;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.contact-form-button button:hover{
+    background-color: #CCA907;
+}

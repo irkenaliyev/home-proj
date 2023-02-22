@@ -1,0 +1,35 @@
+.cards-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+}
+.card{
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    margin: 5px 3px;
+}
+.card-img img{
+    width: 79.32px;
+    padding: 12px;
+}
+.card-header{
+    padding: 0 12px;
+    margin:0 0 8px;
+}
+.card-header h6{
+    font-size: 16px;
+    color:#1F232C;
+    font-family: "Poppins-Boldlight";
+}
+.card-desc{
+    padding: 0 12px;
+    margin: 8px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-desc h5{
+    font-size: 20px;
+    color:#1F232C;
+    font-family: "Poppins-Boldlight";
+}

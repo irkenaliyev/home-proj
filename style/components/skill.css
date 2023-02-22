@@ -1,0 +1,79 @@
+.counter {
+    padding: 0 12px;
+    width: 100%;
+    text-align: center;
+}
+.skill-container {
+    margin: 0 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.counter i{
+    color:#626262;
+}
+.icon-counter {
+    background-color: white;
+    font-size: 35px;
+    line-height: 82px;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 40%) inset;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.counter {
+    position: relative;
+}
+.counter span {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 50px;
+    display: block;
+    background: linear-gradient(to right bottom,#ff7129,#cca907);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 30%);
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 40px;
+    z-index: 1;
+}
+.counter h3 {
+    color: #ff7129;
+    font-family: "Poppins-BoldLight";
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 20px;
+    position: relative;
+    top: 90px;
+}
+.counter:nth-child(2) h3{
+    color:white;
+}
+.counter:nth-child(3) h3{
+    color:#007dd9;
+}
+.counter:last-child h3{
+    color:#00C179;
+}
+.counter:nth-child(2) span{
+    background: linear-gradient(to right bottom,#d33602,#ff7505);
+}
+.counter:nth-child(3) span{
+    background: linear-gradient(to right bottom,#007DD9,#00CCF0);
+}
+.counter:last-child span{
+    background: linear-gradient(to right bottom,#00C179,#00E6C9);
+}

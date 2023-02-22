@@ -1,0 +1,19 @@
+.sponsers-header h3 {
+    text-align: center;
+    font-family: "Poppins-Boldlight";
+    font-size: 28px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    color:white;
+    font-weight: 500;
+}
+.sponsers-images {
+    display: flex;
+    margin: 72px 5% 0;
+}
+.sponsers-images img{
+    width: 100%;
+}
+.sponsers-images a{
+    margin-right: 10px;
+}

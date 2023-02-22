@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Poppins-Boldlight";
+    src: url("../../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins-Light.ttf");
+}
+.main{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+.main-container{
+    margin-left:6%;
+    position: relative;
+}
+.main-text h5{
+    font-size: 20px;
+    font-family: cursive;
+    color:white;
+    padding-left:55px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+.main-text h5::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 0;
+    width: 40px;
+    border: 1.7px solid;
+}
+.main-text h2{
+    color:white;
+    margin-bottom: 8px;
+    font-size: 50px;
+    font-family: "Poppins-Bold";
+}
+.main-text span{
+    color: #CCA907;
+    font-size:50px;
+    font-family: "Poppins-Bold";
+    line-height: 1.5;
+}
+.main-text p{
+    color:white;
+    font-size: 17px;
+    font-family: "Poppins";
+    margin:40px 0 48px;
+    font-weight: 600;
+    border-left: 2px solid #FF7129;
+    padding:8px 0 8px 16px;
+}
+.main-buttons a{
+    color:white;
+    padding:12px 20px;
+    display: inline-block;
+    background-color: #FF7129;
+    font-size: 14px;
+    font-family: "Poppins-Light";
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+.main-buttons a:first-child{
+    margin-right: 12px;
+}
+.main-buttons a:hover {
+    background-color: #CCA907;
+}

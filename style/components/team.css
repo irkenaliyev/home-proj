@@ -1,0 +1,119 @@
+.team-header h5, span {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+#team-span1 {
+    color: #cca907;
+}
+.team-header h3 {
+    text-align: center;
+    font-family: "Poppins-Boldlight";
+    font-size: 28px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+#team-span2 {
+    text-align: center;
+    font-family: "Poppins-Boldlight";
+    font-size: 28px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #cca907;
+}
+.team-images {
+    margin: 72px 5% 0;
+    display: flex;
+}
+.team-card img{
+    width: 100%;
+    position: relative;
+    transition: .5s;
+}
+.team-card {
+    padding: 0 12px;
+    position: relative;
+    overflow: 1;
+}
+.card-social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+.card-social i{
+    font-size: 15px;
+    color: #626262;
+    transition: .5s;
+}
+.card-social a{
+    margin-right: 5px;
+}
+.card-social a:hover i{
+    color: #ff7129;
+    cursor:pointer;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top:60%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: white;
+    transition: .5s;
+}
+.team-card:hover .card-content{
+    opacity: 1;
+    top: 75%;
+}
+.team-card:hover img{
+    transform: translateY(-46px);
+}
+.team-card:hover .card-number{
+    transform: translateY(30px);
+    opacity: 1;
+    top:-65px;
+    left: 25px;
+}
+.card-number{
+    position: absolute;
+    top: -80px;
+    left: 10px;
+    background: #ff7129;
+    padding: 10px 15px;
+    border-radius: 10%;
+    opacity: 0;
+    transition: .4s;
+}
+.card-number span{
+    font-size: 17px;
+    font-weight: 700;
+    color:white;
+    font-family: sans-serif;
+}
+.card-content h3 {
+    font-size: 19px;
+    font-family: "Poppins-Light";
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.card-content span {
+    display: block;
+    margin: 1% 0 3% 0;
+    font-size: 12px;
+    font-family: "Poppins";
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}

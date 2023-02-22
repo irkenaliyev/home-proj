@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Poppins-Boldlight";
+    src: url("../../fonts/Poppins-Bold.ttf");
+}
+.nav-logo {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.nav-logo img{
+    width: 147px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 100px;
+}
+.nav-menu a{
+    font-family: "Poppins";
+    color:black;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    transition: .3s;
+}
+.nav-menu{
+    position: relative;
+}
+#home-menu{
+    position: absolute;
+    top:70px;
+    left:0;
+    background-color: #ff7129;
+    border-radius: 3%;
+    display: none;
+    flex-direction: column;
+    padding: 15px 30px 15px 20px;
+}
+.home-open{
+    display: flex !important;
+}
+.home-item{
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 800 !important;
+    font-family: "Poppins-Light" !important;
+    cursor: pointer;
+    transition: .4s;
+}
+.home-item:hover{
+    transform: translateX(5px);
+}
+#home-menu a:nth-child(2){
+    margin-bottom: 25px;
+}
+.nav-menu a:nth-child(11){
+    background-color:#ff7129;
+    color: white;
+    padding:12px 19px;
+    font-size: 17px;
+}
+.nav-menu a:nth-child(10){
+    background-color: #ff7129;
+    color:white;
+    width: 50px;
+    height: 50px;
+    border-radius:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu a:hover:not(:nth-child(10),:nth-child(11)){
+    color:#ff7129;
+}
+.nav-menu a:hover:nth-child(11){
+    background-color:#CCA907;
+}
+.nav-menu a:hover:nth-child(10){
+    background-color:#CCA907;
+}

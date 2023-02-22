@@ -1,0 +1,105 @@
+.blog-header h5 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.blog-header h3{
+    text-align: center;
+    font-family: "Poppins-Boldlight";
+    font-size: 28px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.blog-grid-item a{
+    font-size: 20px;
+    font-family: "Poppins-Boldlight";
+    font-weight: 500;
+    margin-bottom: 16px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.blog-grid-item:nth-child(3) a, .blog-grid-item:nth-child(4) a{
+    padding: 15px 15px 0;
+} 
+.blog-grid-item:nth-child(2) a, .blog-grid-item:first-child a{
+    margin-bottom: 30px;
+    display: inline-block;
+} 
+.new-content:nth-child(3),.new-content:last-child {
+    padding-left: 12px;
+}
+.small-new{
+    display: inline-block;
+    margin: 0px 0px;
+    background: #fff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    padding: 18px;
+}
+.new-content{
+    margin-bottom: 7px;
+    display: flex;
+    text-align: left;
+    border-top: 1px solid #d3d3d3;
+}
+.new-content:first-child, .new-content:nth-child(2){
+    padding: 15px 0 0 !important;
+}
+.new-content:nth-child(3), .new-content:last-child{
+    padding: 15px 15px;
+}
+.new-content-item {
+    font-size: 16px;
+    font-family: "Poppins-Light";
+    font-weight: 400;
+    color: #626262;
+    margin-right: 13px;
+}
+.new-content-item i{
+    color: #ff7129;
+}
+.new-image {
+    overflow: hidden;
+}
+.new-image img{
+    width: 100%;
+    transition: .4s;
+}
+.blog-grid-item:nth-child(3), .blog-grid-item:last-child {
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+}
+.blog-news {
+    display: grid;
+    gap:24px 24px;
+    margin: 72px 5% 0;
+}
+.blog-grid-item:first-child{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.blog-grid-item:nth-child(2){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.blog-grid-item:nth-child(3){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.blog-grid-item:last-child{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.new-image:hover img{
+    transform: scale(1.3);
+}
